@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Text Editor.exe" version="1.0.1.0" publicKeyToken="e51b23ef72c663d2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="free-to-use-amp-pencil-page.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Text Editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Text Editor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Text Editor.exe" size="789912">
+      <assemblyIdentity name="Text Editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yfy2LsokHL4vcd8z2rMjx8pzmcTwBCB7WotpuiNKfJs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="free-to-use-amp-pencil-page.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9Rj+WcsAFKRaikPd4f+abIMeliDDwtRxpGz8Wdey7Y4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Text Editor.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JAKE\Jake" issuerKeyHash="5c3eb29045a741b04b20b90298253d6a4ba692eb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dfcLWzMfMa5vdXXWGlr2jSf90p+SbNheUyiyiB579HE=</DigestValue></Reference></SignedInfo><SignatureValue>sZnFrvM3UVMle7XHxOdlQo5BueCnuNuENU0acb9ACmiHUjdjcqdAo5F7MOO7MoGzyPL+YRBYf264vA76dxq3oD5DF+p/MZPsYeK/fcUdPP7J1zKCtOjKKwTG/DPmH+8h3qIfObdiclye9Hfn1gUpPX4kR8HAtNX/dwrWT/XvBCI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yHaCsxO64SnryhRu4UbV575LouqFGYb/Z/IyAJwjp6cfze0W0ArZBCDCd+wrWaGoIzzdW2+p7xFO2zt6q9a4xYlAOMEXAw3rmdYceN62YaFJUDFXeD8zGEgUSYKFo06fpwEGMxaoKNyuNKok8e68+sVdDr/v6UaK+w8xBV2SHk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="71f47b1e88b228535ed86c929fd2fd278df65a1ad675756fae311f335b0bf775" Description="" Url=""><as:assemblyIdentity name="Text Editor.exe" version="1.0.1.0" publicKeyToken="e51b23ef72c663d2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JAKE\Jake</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lYAUnxYr+/EVgg2nAXg0f66HLAnkoKgEddFFITNM5OI=</DigestValue></Reference></SignedInfo><SignatureValue>t1alL9BO5aRF/1ojiwATSGpp/u7ko+2hotQvYO/evlP/Bbfp2RyXaKiOrrRXBSfosEKiElPtOmxEjUV9W7dw5FG7eQKnx6lLzJUx92L/VYiIsTi3E8m6VM3whMX5v/xvz3eGEoPsAoNVgcW3gNcXF2mRFc/q4uK3GLGsRo6vSec=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yHaCsxO64SnryhRu4UbV575LouqFGYb/Z/IyAJwjp6cfze0W0ArZBCDCd+wrWaGoIzzdW2+p7xFO2zt6q9a4xYlAOMEXAw3rmdYceN62YaFJUDFXeD8zGEgUSYKFo06fpwEGMxaoKNyuNKok8e68+sVdDr/v6UaK+w8xBV2SHk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQKSC7MimyKo1KLMEIRDkvdjANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIASgBBAEsARQBcAEoAYQBrAGUwHhcNMTYxMDE3MTcxMjE0WhcNMTcxMDE3MjMxMjE0WjAdMRswGQYDVQQDHhIASgBBAEsARQBcAEoAYQBrAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMh2grMTuuEp68oUbuFG1ee+S6LqhRmG/2fyMgCcI6enH83tFtAK2QQgwnfsK1mhqCM83Vtvqe8RTts7eqvWuMWJQDjBFwMN65nWHHjetmGhSVAxV3g/MxhIFEmChaNOn6cBBjMWqCjcrjSqJPHuvPrFXQ6/7+lGivsPMQVdkh5NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAKravQfJ3SswThQytEwo8dZYusfkFo+aWkEgAeKSjoB22BQgAor15gq3K8M8K0nfhER1DI8Jy57xcwxbm0gRlCr3/IZwaFs1QNTKTaWYiAOG8EpmPTWZtSczEHrS2NEen28IAQ/6XwrrgQ0wfV8m3Pplk5GH61OdNNKU0EN02DVo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

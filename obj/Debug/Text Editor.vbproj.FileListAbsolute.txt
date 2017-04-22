@@ -1,0 +1,15 @@
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Debug\Text Editor.exe.config
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Debug\Text Editor.exe
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Debug\Text Editor.pdb
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Debug\Text Editor.xml
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text_Editor.Form1.resources
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text_Editor.Resources.resources
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text Editor.vbproj.GenerateResource.Cache
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text Editor.exe
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text Editor.xml
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text Editor.pdb
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text Editor.vbprojResolveAssemblyReference.cache
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Debug\Text Editor.exe.manifest
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Debug\Text Editor.application
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text Editor.exe.manifest
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Debug\Text Editor.application

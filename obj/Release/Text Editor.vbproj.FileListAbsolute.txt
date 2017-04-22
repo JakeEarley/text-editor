@@ -1,0 +1,14 @@
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Release\Text Editor.exe.config
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Release\Text Editor.exe.manifest
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Release\Text Editor.application
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Release\Text Editor.exe
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Release\Text Editor.pdb
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\bin\Release\Text Editor.xml
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text_Editor.Form1.resources
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text_Editor.Resources.resources
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text Editor.vbproj.GenerateResource.Cache
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text Editor.exe.manifest
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text Editor.application
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text Editor.exe
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text Editor.xml
+C:\Users\Jake\Documents\Computing VB\Text Editor\Text Editor\obj\Release\Text Editor.pdb
